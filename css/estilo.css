@@ -1,0 +1,35 @@
+/*Comentarios que si se compilan*/
+body {
+  background-color: black; }
+  body .botonesMenu {
+    border-style: outset;
+    width: 0,5px;
+    color: grey; }
+  body body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; }
+  body a {
+    text-decoration: none; }
+  body li {
+    list-style: none; }
+  body .contenedor {
+    width: 90;
+    margin: auto;
+    font-family: 'Trade Winds', cursive; }
+  body nav ul li a {
+    color: white;
+    font-weight: bold; }
+  body header .menu {
+    display: flex; }
+  body header .logo-y-menu {
+    display: flex;
+    align-items: center; }
+  body li {
+    font-size: 16px; }
+  body nav ul {
+    display: flex; }
+  body nav ul li {
+    margin: 20px; }
+  body h4 {
+    color: white; }

@@ -1,0 +1,208 @@
+/*Margenes*/
+* {margin: 0cm ; padding: 0cm}
+
+/*Color de fondo, por debajo de imagenes*/
+html{background-color: black}
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Gloria+Hallelujah&family=Kirang+Haerang&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Fredericka+the+Great&family=Gloria+Hallelujah&family=Kirang+Haerang&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+/*Fuente para todo el documente*/
+.h1titulo
+{font-family:'Kirang Haerang', cursive;}
+
+.encabezado {
+    margin: 455;
+}
+
+
+
+
+/*Fuente para footer*/
+.h4footer
+{font-family: 'Fredericka the Great', cursive;
+color: whitesmoke;}
+
+.discografiaLista
+{font-family: 'Fredericka the Great', cursive; color: whitesmoke;}
+
+/*botones Menu*/
+.botonesMenu
+{border-style: outset; width: 0,5px; color: grey; }
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden
+
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+.contenedor {
+    width: 90;
+    margin: auto;
+    font-family: 'Trade Winds', cursive;
+}
+.volver{font-family: 'Kirang Haerang', cursive; color: whitesmoke;}
+
+.videosFormato {display: flex;}
+header {
+    background-color: white;
+  
+}
+
+nav ul li a {color: white;font-weight: bold;
+    
+}
+header .menu {
+    display: flex;
+}
+header .logo-y-menu {
+    display: flex;
+    align-items: center;
+
+    
+}
+li{    font-size: 16px;}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    margin: 20px;
+}
+
+
+/*Tamaño fuente discografia*/
+h1,h2,h3
+{font-size: 11px;
+font-family: 'Kirang Haerang', cursive; color: whitesmoke;}
+h1 {font-size: 23px;}
+h2 {font-size: 20px;}
+h3 {font-size: 18px;}
+
+header {
+    background-color: black;
+
+}
+
+
+/*Botones de inicio paso de color por el hover*/
+.botonesInicio {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    border: 2px solid ;
+    border-radius: 12px;
+    
+}
+.botonesInicio:hover {
+    background-color: rgb(60, 48, 48);
+    width: 5;
+    color: black;
+   
+}
+
+/*GRIDS INDEX*/
+
+.bodyIndex {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "imagenPrincipalFondo imagenPrincipalFondo imagenPrincipalFondo"
+    "footer footer footer";
+}
+
+header {
+    grid-area: header;
+    position: sticky;
+    top: 0%;
+}
+
+.imagenPrincipalFondo {
+    grid-area: imagenPrincipalFondo;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+/*GRIDS VIDEO*/
+
+.bodyVideos {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "volver volver volver"
+    "h1titulo h1titulo h1titulo"
+    "videosFormato videosFormato videosFormato"
+    "footer footer footer";
+}
+
+header {
+    grid-area: header;
+    position: sticky;
+    top: 0%;
+}
+
+.volver {
+    grid-area: volver;
+}
+
+
+.h1titulo{
+   grid-area: h1titulo; 
+}
+
+
+.videosFormato {
+    grid-area: videosFormato;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+
+
+/*RESPONS*/
+
+@media screen and (min-width:700px) {
+    
+    .bodyIndex {
+        display: grid;
+        grid-template-areas: 
+        "header header header"
+        "imagenPrincipalFondo imagenPrincipalFondo imagenPrincipalFondo"
+        "footer footer footer";
+       
+        ;
+        
+}
+}
+
+@media screen and (min-width:700px) {
+    
+    .bodyVideos {
+        display: grid;
+        grid-template-areas: 
+        "header header header"
+        "volver volver volver"
+        "h1titulo h1titulo h1titulo"
+        "videosFormato videosFormato videosFormato"
+        "footer footer footer";
+       
+        ;
+        
+}
+}
+
+
+

@@ -1,0 +1,52 @@
+/*Comentarios que si se compilan*/
+
+@import "variables";
+
+body {
+    background-color: $color-fondo;
+    
+ 
+    .botonesMenu
+    {border-style: outset; width: 0,5px; color: grey; }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x:hidden
+    
+    }
+    a {
+        text-decoration: none;
+
+    }
+    li {
+        list-style: none;
+    }
+    
+    
+    .contenedor {
+        width: 90;
+        margin: auto;
+        font-family: 'Trade Winds', cursive;
+    }
+   
+    nav ul li a {color: white;font-weight: bold;
+        
+    }
+    header .menu {
+        display: flex;
+    }
+    header .logo-y-menu {
+        display: flex;
+        align-items: center;
+    
+    }
+    li{    font-size: $tam-fuenteli;}
+    nav ul {
+        display: flex;
+    }
+    nav ul li {
+        margin: 20px;
+    }
+    h4 {color: $color-h4;}
+}
